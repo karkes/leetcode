@@ -9,6 +9,8 @@
 *  Trick is to store item in 'res' everytime we find it and move our search space 
 *  upper bound closer to low - this will continue the search and return the first 
 *  position of the item in the array.
+*  Time : O(logn)
+*  Space : O(1)
 *
 */
 public class Solution extends VersionControl {
