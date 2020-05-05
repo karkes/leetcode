@@ -10,6 +10,8 @@
 *  e.g. itr = 5 -> 2 -> 1 -> 0 (break while)
 *  
 *  For tests : https://leetcode.com/problems/number-complement/
+*  Time : O(c) where c is last set bit in a given num
+*  Space : O(1)
 *
 */
 class Solution {
