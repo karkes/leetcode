@@ -5,6 +5,8 @@
 *  Make value at char location = -1 if same char is seen again.
 *   
 *  After single pass least idx in freq is first unique character.
+*  Time : O(n)
+*  Space : O(1)
 *
 */
 class Solution {
