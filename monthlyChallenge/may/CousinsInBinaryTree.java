@@ -12,6 +12,10 @@
  *         this.right = right;
  *     }
  * }
+ *
+ * Time : O(n + n)
+ * Space : O(n) -> Recursion stack
+ *
  */
 class Solution {
     private class NodeAndDepth {
