@@ -4,7 +4,7 @@
 *  If Yes then not possible to complete all courses, Else possible
 *
 *  Time : O(E + V)
-*  Space : O(V)
+*  Space : O(E + V)
 *
 */
 class Solution {
