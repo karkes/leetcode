@@ -12,7 +12,7 @@
 *  e.g. 1(color - 0)-2(color - 1) ... 4(color - 0)-5(color - 1) or  4(color - 1)-5(color - 0)
 *  one might give answer as true and other as false depending on the order input is processed.
 *  Time : O(E + V)
-*  Space : O (E + V)
+*  Space : O(E + V)
 *
 *  Union find solution also exist ?!
 *
