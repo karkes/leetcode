@@ -5,8 +5,8 @@
 *    1 - 0001              the binary part to the left of LS 1 of 6 is same in 5 and 6
 *    2 - 0010              the binary part to the right of the LS 1 in 6 will contain all 1's in 5
 *    3 - 0011              this is true for any n and n - 1. A better example is :
-*    4 - 0100              INT_MIN = 2^31 = hex(80 00 00 00); only MSB is 1, but 
-*    5 - 0101              INT_MAX = 2^31 - 1  hex(7f ff ff ff); except MSB all bits are 1
+*    4 - 0100              64 - 00..01 00 00 00 
+*    5 - 0101              63 - 00..00 11 11 11
 *    6 - 0110              on ANDing common part to the left of LS 1 is retained
 *    7 - 0111              Another obs is any even no will always only have powers of 2 set
 *    8 - 1000              e.g. 10 - 1010, to make it odd always the first bit has to be made one
